@@ -11,5 +11,9 @@ jobs:
            uses: actions/checkout@v2
          
          - name: Test Docker
-           uses: docker compose run test pytest
+           run: |
+              docker compose run test
       
+
+
+
